@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:gib="http://schemas.datacontract.org/2004/07/GIB.IAL.Account" xmlns:gib1="http://schemas.datacontract.org/2004/07/GIB.IAL.Framework.Message.Header" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:StandingInstructionCreate>
+         <!--Optional:-->
+         <tem:Request>
+            <!--Optional:-->
+            <gib:Amount>25</gib:Amount>
+            <!--Optional:-->
+            <gib:BankInstitutionInfo>
+               <!--Optional:-->
+               <gib:Address1>AAA</gib:Address1>
+
+               <!--Optional:-->
+               <gib:BIC>CITIUS33</gib:BIC>
+               <!--Optional:-->
+               <gib:Country/>
+               <!--Optional:-->
+               <gib:Name>Citibank</gib:Name>
+            </gib:BankInstitutionInfo>
+            <!--Optional:-->
+            <gib:BeneficiaryInfo>
+               <gib:Account>20000001180</gib:Account>
+               <!--Optional:-->
+               <gib:Address1>Florida</gib:Address1>
+
+               <!--Optional:-->
+               <gib:Amount>25</gib:Amount>
+               <!--Optional:-->
+               <gib:City>US</gib:City>
+               <gib:Country>US</gib:Country>
+               <gib:Currency>USD</gib:Currency>
+               <gib:Name>Test</gib:Name>
+
+            </gib:BeneficiaryInfo>
+            <!--Optional:-->
+            <gib:CIF>00355768</gib:CIF>
+            <!--Optional:-->
+            <gib:ChargeBearer>Singleton</gib:ChargeBearer>
+
+            <!--Optional:-->
+            <gib:Credit>
+               <!--Optional:-->
+               <gib:Account>20000001180</gib:Account>
+               <!--Optional:-->
+               <gib:Branch>200</gib:Branch>
+               <!--Optional:-->
+               <gib:Currency>SAR</gib:Currency>
+            </gib:Credit>
+            <!--Optional:-->
+            <gib:Currency>SAR</gib:Currency>
+            <!--Optional:-->
+            <gib:Debit>
+               <!--Optional:-->
+               <gib:Account>20000001080</gib:Account>
+               <!--Optional:-->
+               <gib:Branch>200</gib:Branch>
+               <!--Optional:-->
+               <gib:Currency>SAR</gib:Currency>
+            </gib:Debit>
+            <gib:ExecutionInfo>
+               <gib:Calendar>Daily</gib:Calendar>
+               <gib:CalendarValue>10</gib:CalendarValue>
+               <gib:ExpiryDate>2017-11-24</gib:ExpiryDate>
+               <gib:StartDate>2017-11-21</gib:StartDate>
+            </gib:ExecutionInfo>
+            <!--Optional:-->
+
+            <gib:MessageHeader>
+               <gib1:IALGUID>5E693E01091C1708E0540208200AAF82</gib1:IALGUID>
+               <!--Optional:-->
+               <gib1:LanguageCode>en_US</gib1:LanguageCode>
+               <gib1:MsgADUserName>USRICORP</gib1:MsgADUserName>
+
+               <gib1:MsgDateTime>20171121103930</gib1:MsgDateTime>
+               <!--Optional:-->
+               <gib1:MsgIdentifier>171120142345</gib1:MsgIdentifier>
+
+               <!--Optional:-->
+               <gib1:MsgProcCode>TXNSIBOOK</gib1:MsgProcCode>
+               <gib1:MsgSourceChannelID>5</gib1:MsgSourceChannelID>
+               <gib1:MsgSourceEnv>T8</gib1:MsgSourceEnv>
+
+            </gib:MessageHeader>
+            <!--Optional:-->
+            <gib:MisDetailsInfo>
+               <!--Optional:-->
+               <gib:TXNMIS1>TXN1</gib:TXNMIS1>
+               <!--Optional:-->
+               <gib:TXNMIS2>TXN1</gib:TXNMIS2>
+               <!--Optional:-->
+               <gib:TXNMIS3>TXN1</gib:TXNMIS3>
+            </gib:MisDetailsInfo>
+            <!--Optional:-->
+            <gib:NarrationInfo>
+               <!--Optional:-->
+               <gib:Narration1>Education/Medical/Institution Expen</gib:Narration1>
+               <!--Optional:-->
+               <gib:Narration2>ses,tst</gib:Narration2>
+
+            </gib:NarrationInfo>
+            <!--Optional:-->
+            <gib:Product>GCP1</gib:Product>
+            <!--Optional:-->
+            <gib:Remarks>RM</gib:Remarks>
+            <gib:TransferType>Internal</gib:TransferType>
+            <!--Optional:-->
+            <gib:UniqueReferenceNo>C736201117142107</gib:UniqueReferenceNo>
+         </tem:Request>
+      </tem:StandingInstructionCreate>
+   </soapenv:Body>
+</soapenv:Envelope>

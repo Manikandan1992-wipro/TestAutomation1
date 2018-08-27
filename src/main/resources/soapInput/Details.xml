@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:gib="http://schemas.datacontract.org/2004/07/GIB.IAL.Account" xmlns:gib1="http://schemas.datacontract.org/2004/07/GIB.IAL.Framework.Message.Header" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <tem:Details>
+            <tem:Request>
+                <gib:CIF i:nil="true"/>
+                <gib:MessageHeader>
+                    <gib1:IALGUID>40e2a26a-b253-476e-935d-036dc950d125</gib1:IALGUID>
+                    <gib1:LanguageCode>en_US</gib1:LanguageCode>
+                    <gib1:MsgADUserName>USRIBNK</gib1:MsgADUserName>
+                    <gib1:MsgDateTime>20171207111802</gib1:MsgDateTime>
+
+                    <gib1:MsgProcCode/>
+                    <gib1:MsgSourceChannelID>1</gib1:MsgSourceChannelID>
+                    <gib1:MsgSourceEnv>T2</gib1:MsgSourceEnv>
+                    <gib1:ParentLogId>0</gib1:ParentLogId>
+                </gib:MessageHeader>
+                <gib:MultipleAccounts>
+                    <gib:ListDetail>
+                        <gib:InquiryDetail>
+                            <gib:Account>20000001181</gib:Account>
+                            <gib:Branch>200</gib:Branch>
+                        </gib:InquiryDetail>
+                    </gib:ListDetail>
+                </gib:MultipleAccounts>
+            </tem:Request>
+        </tem:Details>
+    </soapenv:Body>
+</soapenv:Envelope>
